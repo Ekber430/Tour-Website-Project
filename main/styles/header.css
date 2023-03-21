@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+}
+
+header{
+    height: 180px;
+}
+
+.header-up-main-div{
+    height: 63%;
+    width: 100%;
+
+}
+
+.header-up-flex-div{
+    display: flex;
+    padding-left: 100px;
+    margin-left: 200px;
+    justify-content: space-between;
+    width: 1200px;
+}
+
+.header-down-main-div{
+    height: 68.396px;
+    width: 1690px;
+    background-color: #162e44;
+    display: flex;
+}
+
+.fixed{
+    position: fixed !important;
+    top: 0 !important;
+    z-index: 10 !important;
+}
+
+.main-logo{
+    width: 230px;
+    height: 18px;
+    margin-top: 47px;
+}
+
+.header-info-flex-div{
+    display: flex;
+    width: 800px;
+    margin-top: 10px;
+}
+
+.header-icon{
+    display: block;
+    color: #01b3a7;
+    font-size: 21px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.icon-flex{
+    display: flex;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.icon-flex:nth-of-type(1){
+    border-right: 1px solid #e1e1e1;
+    width: 240px;
+}
+
+.icon-flex:nth-of-type(2){
+    margin-left: 15px;
+}
+
+.header-info{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.am-pm{
+    font-size: 16px;
+    color: black;
+}
+
+.phone-link{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-left: 7px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+
+.phone-link:hover{
+    color: #01b3a7;
+}
+
+.free-quote-div{
+    margin-left: 70px;
+    margin-top: 18px;
+    border: 2px solid #01b3a7;
+    height: 50px;
+    width: 200px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500;
+    position: relative;
+}
+
+.quote-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #01b3a7;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0;
+    transition: transform 0.2s, opacity 0.42s;
+    transform: scale3d(0.7, 1, 1);
+}
+
+.quote-text{
+    position: absolute;
+    z-index: 1;
+    transition: 0.2s;
+}
+
+.free-quote-div:hover .quote-hover{
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+}
+
+.free-quote-div:hover .quote-text{
+    color: white;
+}
+
+.navbar-flex{
+    color: white;
+    height: 100%;
+    margin-left: 290px;
+}
+
+.navbar-ul{
+    display: flex;
+    height: 100%;
+}
+
+.navbar-li{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 55px;
+    position: relative;
+    z-index: 1;
+}
+
+.active-navbar{
+    background-color: rgba(255, 255, 255, 0.11);
+    border-top: 4px solid #01b3a7;
+}
+
+.active-navbar-hover{
+    transition: 0.3s;
+}
+
+.active-navbar-hover:hover{
+    background-color: rgba(255, 255, 255, 0.25)
+
+}
+
+.navbar-hover-background{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-top: 4px solid #01b3a7;
+    transform: translate3d(-50%,0,0);
+    
+    opacity: 0;
+    visibility: hidden;
+}
+
+.navbar-link{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    transition: 0.35s;
+}
+
+.navbar-3{
+    width: 120px;
+    padding-left: 0px;
+}
+.navbar-4{
+    width: 100px;
+}
+
+.link-1{
+    width: 100%;
+}
+
+.link-2{
+    width: 100%;
+}
+
+.link-3{
+    width: 100%;
+}
+
+.link-4{
+    width: 100%;
+}
+
+.navbar-li:hover .navbar-hover-background{
+    visibility: visible;
+    opacity: 1;
+    transform: translate3d(0,0,0);
+    transition: all 0.35s cubic-bezier(0.05, 0.29, 0.11, 1.54);
+}
+
+.navbar-link:hover{
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.header-down-main-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+}
+
+.social-media-navbar-flex{
+    display: flex;
+}
+
+.fa-brands{
+    color: white;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.5s;
+}
+
+.social-media-navbar-main-div{
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands:hover{
+    transition-delay: 0.1s;
+    cursor: pointer;
+    color: #01b3a7;
+}
+

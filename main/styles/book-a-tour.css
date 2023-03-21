@@ -1,0 +1,95 @@
+
+#book-a-tour{
+    width: 1690px;
+    height: 500px;
+}
+
+.parallax-image-main{
+    width: 1690px;
+    min-height: 500px;
+    background-image: url(../images/parallax-1-1920x850.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.parallax-image-shadow{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 18%;
+}
+
+.tour-book-title{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 400;
+    z-index: 3;
+}
+
+.tour-book-text{
+    letter-spacing: .075em;
+    font-size: 14px;
+    line-height: 1.71429;
+    font-weight: 400;
+    color: white;
+    z-index: 3;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.book-a-tour-button{
+    color: white;
+    z-index: 3;
+    width: 165px;
+    height: 33px;
+    padding-top: 17px;
+    padding-left: 35px;
+    font-weight: 500;
+    margin-top: 30px;
+    position: relative;
+}
+
+.book-a-tour-button-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #01b3a7;
+    width: 203px;
+    height: 53px;
+    z-index: -1;
+    transition: 0.25s ease-in-out;
+}
+
+.book-a-tour-button-border{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    transform: scale(1.05, 1.25);
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+}
+
+.book-a-tour-button:hover .book-a-tour-button-border{
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+.book-a-tour-button:hover .book-a-tour-button-background{
+    transform: scale(0.9, 0.9);
+    opacity: 0;
+}

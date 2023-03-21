@@ -1,0 +1,184 @@
+
+#discover-new-horizons{
+    width: 1690px;
+    height: 460px;
+    padding-top: 70px;
+}
+
+.new-horizons-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.horizons-contact-main{
+    padding-left: 90px;
+}
+
+.horizons-title{
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 40px;
+    letter-spacing: 0.5px;
+}
+
+.horizons-navbar-ul{
+    width: 473px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.horizons-navbar-li{
+    position: relative;
+    letter-spacing: 1px;
+    color: #9b9b9b;
+    transition: 0.5s;
+    padding-bottom: 5px;
+    overflow: hidden;
+}
+
+.horizons-navbar-li:hover{
+    color: #01b3a7;
+    cursor: pointer;
+}
+
+.horizon-active-navbar{
+    color: #01b3a7;
+    border-bottom: 2px solid #01b3a7;
+}
+
+.horizons-relative-div{
+    position: relative;
+    margin-top: 30px;
+    width: 470px;
+    height: 200px;
+}
+
+.horizons-contact{
+    position: absolute;
+    width: 470px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    background-color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#first-horizons-contact{
+    z-index: 3;
+}
+
+#second-horizons-contact{
+    z-index: 2;
+}
+
+#third-horizons-contact{
+    z-index: 1;
+}
+
+.contact-text{
+    font-size: 14px;
+    line-height: 1.71429;
+}
+
+.horizons-button-flex{
+    display: flex;
+    margin-top: 40px;
+}
+
+.horizons-button-one{
+    border: 2px solid #01b3a7;
+    position: relative;
+    padding: 20px 40px;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.horizons-button-background{
+    background-color: #01b3a7;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    transform: scale(1);
+}
+
+.horizons-button-one:hover{
+    border: 2px solid black;
+    color: black;
+    animation: borderFadeIn 0.4s;
+}
+
+@keyframes borderFadeIn {
+    0%{
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.horizons-button-one:hover .horizons-button-background{
+    background-color: white;
+    transform: scale(0.95);
+}
+
+.horizons-button-two{
+    color: black;
+    padding: 20px 50px;
+    border: 2px solid black;
+    margin-left: 20px;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.horizons-button-two:hover{
+    border: 2px solid #01b3a7;
+    background-color: #01b3a7;
+}
+
+#horizon-navbar-border-first{
+    background-color: #01b3a7;
+    width: 100%;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.20s ease-in-out;
+}
+
+#horizon-navbar-border-second{
+    background-color: #01b3a7;
+    width: 0%;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.20s ease-in-out;
+}
+
+#horizon-navbar-border-third{
+    background-color: #01b3a7;
+    width: 0%;
+    height: 2px;
+    opacity: 1;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: 0.20s ease-in-out;
+}
+
+#horizons-first-navbar{
+    color: #01b3a7;
+}
+

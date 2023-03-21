@@ -1,0 +1,144 @@
+
+
+#hot-tours{
+    width: 1690px;
+    height: 900px;
+}
+
+.hot-tour-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.hot-tour-main-box{
+    border: 0.1px solid gray;
+    width: 1200px;
+    height: 340px;
+    overflow: hidden;
+    margin-top: 40px;
+    display: flex;
+}
+
+.hot-tour-image-box{
+    width: 600px;
+    overflow: hidden;
+}
+
+.hot-tour-text-box{
+    width: 600px;
+    position: relative;
+    padding-top: 50px;
+}
+
+.hot-tour-image{
+    height: 100%;
+    transform: scale(1.11);
+    transition: 0.3s;
+    object-fit: cover;
+    width: 650px;
+}
+
+.hot-tour-main-box:hover .hot-tour-image{
+    transform: scale(1);
+}
+
+.hot-tour-price{
+    background-color: #01b3a7;
+    width: 90px;
+    height: 80px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 500;
+    clip-path: polygon(100% 0, 100% 100%, 23% 100%, 0 67%, 0 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hot-tour-link{
+    color: black;
+    font-size: 21px;
+    font-weight: 500;
+    margin-left: 70px;
+    transition: 0.35s ease-in-out;
+}
+
+.hot-tour-review-flex{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.fa-star{
+    color: #ffcc00;
+    width: 20px;
+    font-size: 14px;
+}
+
+.fa-star-half-stroke{
+    color: #ffcc00;
+    width: 20px;
+    font-size: 14px;
+}
+
+.customer-review{
+    color: #9b9b9b;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    margin-left: 13px;
+    transition: 0.35s ease-in-out;
+}
+
+.customer-review:hover{
+    color: #01b3a7;
+}
+
+.hot-tour-link:hover{
+    color: #01b3a7;
+}
+
+.hot-tour-text{
+    color: #9b9b9b;
+    font-size: 14px;
+    line-height: 1.71429;
+    width: 400px;
+    margin-top: 15px;
+    margin-left: 70px;
+}
+
+.hot-tour-buy-button{
+    display: block;
+    color: black;
+    margin-left: 70px;
+    margin-top: 35px ;
+    padding: 17px 28px 15px;
+    border: 2px solid black;
+    font-weight: 500;
+    width: 110px;
+    position: relative;
+}
+
+.hot-tour-button-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #01b3a7;
+    z-index: -1;
+    transform: scale(65%,100%);
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.hot-tour-buy-button:hover .hot-tour-button-background{
+    opacity: 1;
+    transform: scale(100%, 100%);
+}
+

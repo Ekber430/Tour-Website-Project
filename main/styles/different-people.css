@@ -1,0 +1,120 @@
+
+#different-people{
+    width: 1690px;
+    height: 450px;
+}
+
+.people-main-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-main-flex{
+    display: flex;
+}
+
+.people-main-box{
+    height: 200px;
+    width: 270px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 140px;
+}
+
+.people-text-box{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.people-image-background{
+    border-radius: 100%;
+    width: 128px;
+    height: 128px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    position: absolute;
+    top: -85px;
+    left: 65px;
+    z-index: 1;
+}
+
+.people-link{
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.user-image{
+    width: 118px;
+    height: 118px;
+    border-radius: 100%;
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: -75px;
+    left: 75px;
+    z-index: 3;
+}
+
+.image-border{
+    background-color: #01b3a7;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    border-radius: 100%;
+    top: -79px;
+    left: 70px;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.people-main-box:hover .user-image{
+    transform: translate(0%, -10%);
+}
+
+.people-main-box:hover .image-border{
+    opacity: 1;
+    transform: translate(0%, -10%);
+}
+
+.user-name{
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: 0.35s;
+}
+
+.user-name:hover{
+    color: #01b3a7;
+}
+
+.user-rank{
+    color: #01b3a7;
+    letter-spacing: .025em;
+    line-height: 1.71429;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.user-phone{
+    transition: 0.3s;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.user-phone:hover{
+    color: #01b3a7;
+}
+

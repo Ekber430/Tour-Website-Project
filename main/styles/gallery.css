@@ -1,0 +1,217 @@
+
+#gallery{
+    width: 1690px;
+    height: 280px;
+    background-color: #f7f7f7;
+}
+
+.gallery-main-div{
+    height: 280px;
+}
+
+.gallery-title-flex{
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-title{
+    font-weight: 500;
+    padding: 10px 15px;
+    background-color: white;
+    font-size: 14px;
+    width: 180px;
+    text-align: center;
+}
+
+.gallery-main-div .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-main-div .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.gallery-image-main-box{
+    width: 240px;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery-images{
+    position: absolute;
+    z-index: -1;
+    transform: scale(1.2);
+    transition: 0.26s ease-in-out;
+}
+
+.gallery-image-border{
+    border: 1px solid rgb(181, 181, 181);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.77);
+    z-index: 2;
+    transition: 0.25s ease-in-out;
+    opacity: 0;
+}
+
+.gallery-image-opacity{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-magnifying-glass-plus{
+    z-index: 10;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    transform: translate(0%, -35%);
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.slide-1{
+    background-image: url(../images/gallery-1.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-2{
+    background-image: url(../images/gallery-2.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-3{
+    background-image: url(../images/gallery-3.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-4{
+    background-image: url(../images/gallery-4.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-5{
+    background-image: url(../images/gallery-5.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-6{
+    background-image: url(../images/gallery-6.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slide-7{
+    background-image: url(../images/gallery-7.jpg);
+    width: 240px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-image-main-box:hover .gallery-images{
+    transform: scale(1);
+}
+
+.gallery-image-main-box:hover .gallery-image-opacity{
+    opacity: 25%;
+}
+
+.gallery-image-main-box:hover .gallery-image-border{
+    transform: scale(0.91, 0.89);
+    opacity: 1;
+}
+
+.gallery-image-main-box:hover .fa-magnifying-glass-plus{
+    transform: translate(0%,0%);
+    opacity: 1;
+}
+
+.fa-magnifying-glass-plus:hover{
+    color: rgba(255, 255, 255, 0.479);
+}
+
+.zoom-menu{
+    position: fixed;
+    top: 0;
+    width: 1690px;
+    height: 100%;
+    z-index: 20;
+    display: none;
+    justify-content: center;
+}
+
+.zoom-menu-background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 70%;
+    z-index: 2;
+    transition: 0.5s;
+}
+
+.zoom-image-box{
+    z-index: 3;
+    height: 100%;
+    width: 1200px;
+    left: 200px;
+}
+
+.zoom-close{
+    position: absolute;
+    z-index: 3;
+    cursor: pointer;
+    color: #999;
+    font-size: 35px;
+    right: 20px;
+    top: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.zoom-close:hover{
+    color: white;
+}
+
+.image-active{
+    display: block !important;
+}

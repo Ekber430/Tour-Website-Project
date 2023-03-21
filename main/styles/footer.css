@@ -1,0 +1,247 @@
+
+footer{
+    width: 1690px;
+    height: 500px;
+}
+
+.information-main-div{
+    background-color: #162e44;
+    width: 1690px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.information-divs{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.information-title{
+    color: white;
+    font-size: 17px;
+    letter-spacing: .025rem;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.contact-div{
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact-div .fa-solid{
+    color: #01b3a7;
+    font-size: 20px;
+}
+
+.contact-link{
+    margin-left: 15px;
+    transition: 0.35s ease-in-out;
+    font-size: 16px;
+}
+
+.contact-link:hover{
+    color: #01b3a7;
+}
+
+.contact-address{
+    width: 200px;
+    font-size: 15px;
+    line-height: 1.72;
+}
+
+.news-text{
+    display: block;
+    color: #01b3a7;
+    font-size: 15px;
+    line-height: 1.71429;
+    font-weight: 400;
+    width: 240px;
+    margin-top: 20px;
+    transition: 0.35s ease-in-out;
+}
+
+.news-date{
+    color: rgba(255, 255, 255, 0.25);
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+    letter-spacing: .075em;
+    margin-top: 10px;
+}
+
+.news-text:hover{
+    color: #50ba87;
+}
+
+.list-flex{
+    display: flex;
+}
+
+.quick-link-list{
+    list-style-type: disc;
+    list-style-position: inside;
+    color: #01b3a7;
+    margin-top: 20px;
+}
+
+.quick-link-li{
+    font-size: 15px;
+    line-height: 1.71429;
+    font-weight: 500;
+    transition: 0.25s ease-in-out;
+}
+
+.quick-link-li:hover{
+    color: #01b3a7;
+}
+
+.second-list{
+    margin-left: 70px;
+}
+
+.quick-link-button{
+    color: white;
+    width: 170px;
+    height: 65px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.quick-link-button-background-first{
+    background-color: #01b3a7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.quick-link-button-background-second{
+    background-color: #50ba87;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    transform: scale(0.6,1);
+    opacity: 0;
+    transition: 0.15s ease-in-out;
+}
+
+.quick-link-button-text{
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick-link-button:hover .quick-link-button-background-second{
+    opacity: 1;
+    transform: scale(1,1);
+}
+
+.copyright-main-div{
+    width: 1690px;
+    height: 100px;
+    background-color: #11263a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright-divs{
+    width: 400px;
+    height: 60px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.copyright-text{
+    color: #FFFFFF4D;
+    font-size: 12px;
+    letter-spacing: .025em;
+    font-weight: 500;
+    margin-top: 7px;
+    line-height: 1.71429;
+}
+
+.author{
+    transition: 0.25s ease-in-out;
+}
+
+.author:hover{
+    color: #01b3a7;
+}
+
+.social-links-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.social-links{
+    margin-bottom: 10px;
+}
+
+.social-link-icons{
+    font-size: 16px;
+    color: #FFFFFF4D;
+}
+
+.privacy-policy{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+.policy-link{
+    font-size: 12px;
+    color: #FFFFFF4D;
+    letter-spacing: .025em;
+    font-weight: 500;
+    transition: 0.3s ease-in-out;
+}
+
+.policy-link:hover{
+    color: #01b3a7;
+}
+
+.return-to-top-button{
+    position: fixed;
+    bottom: -50px;
+    right: 20px;
+    background-color: #01b3a7;
+    width: 50px;
+    height: 50px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.35s ease-in-out;
+    cursor: pointer;
+}
+
+.fa-chevron-up{
+    color: white;
+    font-size: 14px;
+}
+
+.return-to-top-translate{
+    bottom: 30px;
+}

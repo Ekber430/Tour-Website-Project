@@ -1,0 +1,258 @@
+
+#main-menu{
+    width: 100%;
+    height: 1260px;
+}
+
+span{
+    color: white;
+    font-weight: 400;
+}
+
+h6{
+    color: white;
+}
+
+.menu-main-div{
+    width: 1690px;
+    height: 100%;
+}
+
+.swiper {
+    width: 100%;
+    height: 600px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-image{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-pagination{
+    margin-right: 150px;
+}
+
+.swiper-pagination-bullet{
+    --swiper-theme-color: #01b3a7;
+    border-radius: 0% !important;
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,14px)) !important;
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,14px)) !important;
+}
+
+.slider-one{
+    background-image: url(../images/slider-one.jpg);
+}
+
+.slider-two{
+    background-image: url(../images/slider-two.jpg);
+}
+
+.slider-three{
+    background-image: url(../images/slider-three.jpg);
+}
+
+.swiper-div-flex{
+    width: 1320px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-div-information{
+    width: 700px;
+    height: 250px;
+    margin-top: 100px;
+}
+
+.swiper-information-text{
+    text-align: left;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 17px;
+    animation: right-to-left 1s;
+}
+
+@keyframes right-to-left {
+    0% {
+        opacity: 0;
+        transform: translate(8%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.swiper-information-title{
+    color: white;
+    text-align: left;
+    width: 800px;
+    font-size: 65px;
+    animation: bottom-to-top 1s;
+}
+
+@keyframes bottom-to-top {
+    0%{
+        opacity: 0;
+        transform: translate(0,100%);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.get-in-touch-div{
+    width: 200px;
+    height: 110px;
+    display: flex;
+    align-items: center;    
+}
+
+.get-in-touch-button{
+    border: 2px solid white;
+    position: relative;
+    width: 160px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+    animation: left-to-right 1s;
+}
+
+@keyframes left-to-right {
+    0%{
+        opacity: 0;
+        transform: translate(-20%,0);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0,0);
+    }
+}
+
+.get-in-touch-background{
+    opacity: 0;
+    position: absolute;
+    background-color: #50ba87;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: 0.2s;
+    transform: scale(70%,100%);
+}
+
+.get-in-touch-text{
+    position: absolute;
+    z-index: 1;
+}
+
+.get-in-touch-button:hover .get-in-touch-background{
+    opacity: 1;
+    transform: scale(100%,100%);
+}
+
+.get-in-touch-button:hover{
+    border: 2px solid #50ba87;
+}
+
+.menu-images-main-div{
+    width: 1690px;
+    height: 630px;
+    background-color: #f7f7f7;
+}
+
+.menu-images-flex{
+    width: 1690px;
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-images-div{
+    position: relative;
+    width: 370px;
+    height: 420px;
+    margin-left: 15px;
+    margin-right: 15px;
+    overflow: hidden;
+}
+
+.menu-image-text{
+    position: absolute;
+    bottom: 30px;
+    left: 95px;
+    font-size: 24px;
+}
+
+.menu-images{
+    position: absolute;
+    transform: scale(1);
+    transition: 0.35s;
+}
+
+.menu-images-div:hover .menu-images{
+    transform: scale(1.1);
+}
+
+.mountain-holiday{
+    left: 75px;
+}
+
+.beach-holidays{
+    left: 88px;
+}
+
+.other-tours-flex{
+    width: 1690px;
+    display: flex;
+    justify-content: center;
+}
+
+.other-tours-button{
+    display: flex;
+    color: black;
+    font-weight: 500;
+}
+
+.other-tours-stick{
+    display: flex;
+}
+
+.stick-left-side{
+    background-color: black;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20px;
+    height: 2px;
+    transition: 0.3s;
+}
+
+.stick-right-side{
+    background-color: black;
+    width: 5px;
+    height: 6px;
+    clip-path: polygon(100% 50%, 0 0, 0 100%);
+    margin-top: 8px;
+}
+
+.other-tours-button:hover .stick-left-side{
+    width: 35px;
+}
+
