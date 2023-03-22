@@ -17,27 +17,32 @@ ul{
 
 header{
     height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .header-up-main-div{
     height: 63%;
     width: 100%;
-
+    display: flex;
+    justify-content: center;
 }
 
 .header-up-flex-div{
     display: flex;
     padding-left: 100px;
-    margin-left: 200px;
+    margin-left: 70px;
     justify-content: space-between;
     width: 1200px;
 }
 
 .header-down-main-div{
     height: 68.396px;
-    width: 1690px;
+    width: 100%;
     background-color: #162e44;
     display: flex;
+    justify-content: center;
 }
 
 .fixed{
@@ -154,7 +159,7 @@ header{
 .navbar-flex{
     color: white;
     height: 100%;
-    margin-left: 290px;
+    margin-left: 170px;
 }
 
 .navbar-ul{
@@ -272,6 +277,7 @@ header{
 .social-media-navbar-main-div{
     display: flex;
     align-items: center;
+    margin-right: 110px;
 }
 
 .fa-brands:hover{

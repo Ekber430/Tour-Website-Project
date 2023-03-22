@@ -1,12 +1,12 @@
 
 footer{
-    width: 1690px;
+    width: 100%;
     height: 500px;
 }
 
 .information-main-div{
     background-color: #162e44;
-    width: 1690px;
+    width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
@@ -154,7 +154,7 @@ footer{
 }
 
 .copyright-main-div{
-    width: 1690px;
+    width: 100%;
     height: 100px;
     background-color: #11263a;
     display: flex;
