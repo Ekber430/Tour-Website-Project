@@ -1,20 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../main/styles/header.css">
+    <link rel="stylesheet" href="./styles/about-title.css">
+    <link rel="stylesheet" href="./styles/why-choose-us.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <script src="https://kit.fontawesome.com/3c6fecc07a.js" crossorigin="anonymous"></script>
     <title>Explore The World</title>
 </head>
+
 <body>
     <header>
         <div class="header-up-main-div">
             <div class="header-up-flex-div">
-                <a href="#"><img src="../main/images/main-logo.png" alt="main-logo" class="main-logo"></a>
+                <a href="../main/index.html"><img src="../main/images/main-logo.png" alt="main-logo"
+                        class="main-logo"></a>
                 <div class="header-info-flex-div">
                     <div class="icon-flex">
                         <i class="fa-regular fa-clock header-icon"></i>
@@ -72,6 +76,78 @@
             </div>
         </div>
     </header>
-    
+    <section id="about-title">
+        <div class="title-overflow">
+            <div class="title-main-div"></div>
+            <h1 class="about-main-title">About</h1>
+            <div class="title-link-div">
+                <a href="../main/index.html" class="title-link-one">HOME</a>
+                /
+                <p class="title-link-two">ABOUT</p>
+            </div>
+        </div>
+    </section>
+    <section id="why-choose-us">
+        <div class="choose-us-flex">
+            <img src="./images/choose-us.jpg" alt="choose-us">
+            <div class="choose-us-contact-main">
+                <h3 class="choose-us-title">Why choose us</h3>
+                <ul class="choose-us-navbar-ul">
+                    <li><a class="choose-us-navbar-li" id="choose-us-first-navbar">
+                            <div id="choose-navbar-border-first"></div>
+                            EXPERIENCE
+                        </a></li>
+                    <li><a class="choose-us-navbar-li" id="choose-us-second-navbar">
+                            <div id="choose-navbar-border-second"></div>
+                            SKILLS
+                        </a></li>
+                    <li><a class="choose-us-navbar-li" id="choose-us-third-navbar">
+                            <div id="choose-navbar-border-third"></div>
+                            MISSION
+                        </a></li>
+                </ul>
+                <div class="choose-us-relative-div">
+                    <div class="choose-us-contact" id="first-choose-us-contact">
+                        <p class="choose-us-text">Aliquam malesuada bibendum arcu vitae elementum curabitur. A erat nam at lectus urna duis
+                            convallis convallis tellus. Sit amet consectetur adipiscing elit pellentesque.
+                        </p>
+                        <p class="progression-bar-title">Tours</p>
+                        <div class="progression-bar-main-div">
+                            <div class="progression-percent">79%</div>
+                            <div class="white-circle"></div>
+                            <div class="green-circle"></div>
+                            <div class="left-bar"></div>
+                            <div class="right-bar"></div>
+                        </div>
+                        <p class="progression-bar-title">Excursions</p>
+                        <div class="progression-bar-main-div">
+                            <div class="progression-percent second-progression-percent">72%</div>
+                            <div class="white-circle second-white-circle"></div>
+                            <div class="orange-circle second-orange-circle"></div>
+                            <div class="left-bar orange-bar"></div>
+                            <div class="right-bar"></div>
+                        </div>
+                        <p class="progression-bar-title">Hotel Bookings</p>
+                        <div class="progression-bar-main-div">
+                            <div class="progression-percent third-progression-percent">88%</div>
+                            <div class="white-circle third-white-circle"></div>
+                            <div class="blue-circle third-blue-circle"></div>
+                            <div class="left-bar blue-bar"></div>
+                            <div class="right-bar"></div>
+                        </div>
+                    </div>
+                    <div class="choose-us-contact" id="second-choose-us-contact">
+                        
+                    </div>
+                    <div class="choose-us-contact" id="third-choose-us-contact">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./scripts/chooseUsNavbarClick.js"></script>
 </body>
+
 </html>
