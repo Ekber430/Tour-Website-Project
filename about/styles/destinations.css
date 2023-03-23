@@ -1,0 +1,85 @@
+
+.destinations{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+.destinations .swiper{
+    height: 400px;
+    background-color: white;
+}
+
+.destinations .slide-1{
+    background-image: url(../images/destination-1.jpg) !important;
+}
+
+.destinations .slide-2{
+    background-image: url(../images/destination-2.jpg) !important;
+}
+
+.destinations .slide-3{
+    background-image: url(../images/destination-3.jpg) !important;
+}
+
+.destinations .slide-4{
+    background-image: url(../images/destination-4.jpg) !important;
+}
+
+.destinations .slide-5{
+    background-image: url(../images/destination-5.jpg) !important;
+}
+
+.destinations .slide-6{
+    background-image: url(../images/destination-6.jpg) !important;
+}
+
+.destinations .swiper-slide{
+    background-color: white;
+}
+
+.destinations .gallery-image-main-box{
+    width: 400px;
+    height: 280px;
+}
+
+.destinations .gallery-images{
+    width: 400px;
+    height: 280px;
+}
+
+.destinations .gallery-title{
+    font-size: 36px;
+    color: #151515;
+    font-weight: 600;
+    margin-right: 60px;
+    margin-top: 70px;
+}
+
+.destination-relative{
+    position: relative;
+    height: 340px;
+}
+
+.destination-links{
+    position: absolute;
+    bottom: -40px;
+    transition: all 0.3s ease-in-out;   
+    font-size: 21px;
+    color: #151515;
+    z-index: 20;
+    bottom: 10px;
+    left: 165px;
+}
+
+.destination-links:hover{
+    color: #01b3a7;
+}
+
+.second-link{
+    left: 180px;
+}
+
+.third-link{
+    left: 175px;
+}
