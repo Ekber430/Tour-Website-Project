@@ -1,0 +1,105 @@
+
+#contacts{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-main-flex{
+    width: 1210px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-main-div{
+    border: 1px solid #e1e1e1;
+    width: 380px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    transition: 0.2s ease-in-out;
+}
+
+.fa-mobile-screen-button{
+    position: absolute;
+    top: 80px;
+    left: 168px;
+    color: #01b3a7;
+    font-size: 65px;
+    transition: 0.2s ease-in-out;
+}
+
+.contact-border{
+    background-color: #01b3a7;
+    height: 2px;
+    width: 0;
+    transition: 0.2s ease-in-out;
+    margin-top: 20px;
+}
+
+.contacts-main-div:hover .contact-border{
+    width: 110px;
+}
+
+.contacts-main-div:hover .fa-mobile-screen-button{
+    top: 68px;
+}
+
+.contact-links{
+    color: #151515;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: .025em;
+}
+
+.contact-links:hover{
+    color: #01b3a7;
+}
+
+.contact-link-div{
+    position: absolute;
+    bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.2s ease-in-out;
+}
+
+.contacts-main-div:hover .contact-link-div{
+    bottom: 65px;
+}
+
+.contacts-main-div:hover{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
+}
+
+.fa-house{
+    position: absolute;
+    top: 80px;
+    left: 154px;
+    color: #01b3a7;
+    font-size: 65px;
+    transition: 0.2s ease-in-out;
+}
+
+.contacts-main-div:hover .fa-house{
+    top: 68px;
+}
+
+.fa-comments{
+    position: absolute;
+    top: 80px;
+    left: 151px;
+    color: #01b3a7;
+    font-size: 65px;
+    transition: 0.2s ease-in-out;
+}
+
+.contacts-main-div:hover .fa-comments{
+    top: 68px;
+}

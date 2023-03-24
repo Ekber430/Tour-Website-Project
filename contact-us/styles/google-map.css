@@ -1,0 +1,11 @@
+
+.google-map-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.google-map-div{
+    width: 1560px;
+    height: 450px;
+}
