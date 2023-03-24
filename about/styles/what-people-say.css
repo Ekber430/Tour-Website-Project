@@ -1,4 +1,132 @@
 
 .what-people-say{
-    
+    width: 100%;
+    height: 550px;
+}
+
+.main-title{
+    font-size: 36px;
+    font-weight: 600;
+    color: #151515;
+    text-align: center;
+}
+
+.people-main-div{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: relative;
+}
+
+.people-main-div .swiper {
+    width: 75%;
+    height: 400px;
+}
+
+.people-main-div .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 	0px 3px 3px 0px rgba(0,0,0,0.12),
+    0px 3px 6px 0px rgba(0,0,0,0.22);
+    border-radius:	6px;
+    width: 99% !important;
+    height: 90%;
+    margin-left: 10px;
+    margin-top: 15px;
+    flex-direction: column;
+}
+
+.people-main-div .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet{
+    border-radius: var(--swiper-pagination-bullet-border-radius,0%) !important;
+    --swiper-theme-color: #01b3a7;
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,12px)) !important;
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,12px)) !important;
+}
+
+.swiper-pagination{
+    bottom: var(--swiper-pagination-bottom,-4px) !important;
+}
+
+.people-gray-background{
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: #f4f4f4;
+    width: 98%;
+    height: 3%;
+    z-index: -1;
+}
+
+.people-dark-gray-background{
+    position: absolute;
+    background-color: #e8e8e8;
+    width: 97%;
+    height: 4%;
+    top: -20px;
+    left: 17px;
+    z-index: -2;
+}
+
+.people-image{
+    border-radius: 100%;
+}
+
+.people-text{
+    letter-spacing: .025em;
+    font-size: 14px;
+    line-height: 1.71429;
+    font-weight: 400;
+    color: #151515;
+    width: 830px;
+    margin-top: 20px;
+}
+
+.people-text-icon{
+    color: #50ba87;
+    position: absolute;
+    font-size: 48px;
+}
+
+.first-icon{
+    top: 160px;
+    left: 195px;
+}
+
+.second-icon{
+    top: 185px;
+    right: 210px;
+}
+
+.people-link{
+    color: #151515;
+    font-weight: 400;
+    letter-spacing: .075em;
+    font-size: 21px;
+    transition: 0.3s ease-in-out;
+    margin-top: 25px;
+}
+
+.people-link:hover{
+    color: #01b3a7;
+}
+
+.people-rank{
+    color: #01b3a7;
+    letter-spacing: .025em;
+    font-size: 14px;
+    line-height: 1.71429;
+    font-weight: 400;
 }
