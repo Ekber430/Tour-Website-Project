@@ -64,10 +64,18 @@
     margin-right: 10px;
 }
 
+.title-link-one:hover{
+    border-bottom: 1px solid white;
+}
+
 .title-link-two{
     color: rgba(255, 255, 255, 0.53);
     font-size: 14px;
     letter-spacing: .1em;
     font-weight: 500;
     margin-left: 10px;
+}
+
+.typography-title{
+    margin-left: 37px;
 }
