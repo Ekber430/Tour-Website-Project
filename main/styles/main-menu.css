@@ -270,3 +270,44 @@ h6{
     width: 35px;
 }
 
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    .swiper{
+        height: 800px;
+    }
+
+    .swiper-div-flex{
+        width: 1000px;
+        align-items: flex-start;
+        margin-top: 150px;
+    }
+
+    .swiper-information-text{
+        font-size: 50px;
+        width: 1500px;
+    }
+
+    .swiper-information-title{
+        font-size: 100px;
+        width: 1200px;
+    }
+
+    .get-in-touch-div{
+        width: 300px;
+        margin-top: 30px;
+    }
+
+    .get-in-touch-button{
+        width: 1500px !important;
+        height: 100px;
+    }
+
+    .get-in-touch-text{
+        font-size: 40px;
+    }
+
+    .swiper-pagination-bullet{
+        width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,34px)) !important;
+        height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,34px)) !important;
+        margin: var(--swiper-pagination-bullet-vertical-gap,18px) 0 !important;
+    }
+}
