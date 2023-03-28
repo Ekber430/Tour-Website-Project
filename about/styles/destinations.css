@@ -83,3 +83,10 @@
 .third-link{
     left: 175px;
 }
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    .gallery-title{
+        font-size: 60px !important;
+        margin-right: 220px !important;
+    }
+}

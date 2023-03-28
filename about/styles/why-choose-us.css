@@ -321,3 +321,40 @@
 .mission-span{
     color: #151515;
 }
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    #why-choose-us{
+        height: 1000px;
+    }
+
+    .choose-us-contact{
+        height: 583px;
+        width: 606px;
+    }
+
+    .horizons-button-one{
+        width: 128px;
+    }
+
+    .horizons-button-two{
+        width: 192px;
+    }
+
+    .choose-us-text{
+        font-size: 20px;
+        width: 600px;
+    }
+
+    .choose-us-navbar-li{
+        font-size: 25px;
+    }
+
+    .choose-us-navbar-ul{
+        width: 700px;
+    }
+
+    .mission-text{
+        font-size: 20px;
+        width: 600px;
+    }
+}

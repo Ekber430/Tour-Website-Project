@@ -182,3 +182,66 @@
     color: #01b3a7;
 }
 
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    #discover-new-horizons{
+        height: 1600px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .new-horizons-flex{
+        flex-direction: column;
+    }
+
+    .new-horizons-image{
+        width: 1300px;
+        height: 800px;
+        margin-left: 60px;
+    }
+
+    .horizons-contact-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .horizons-title{
+        font-size: 60px;
+    }
+
+    .horizons-navbar-ul{
+        width: 1400px;
+        padding-top: 50px;
+    }
+
+    .horizons-navbar-li{
+        font-size: 40px;
+    }
+
+    .contact-text{
+        width: 1200px;
+        font-size: 25px;
+    }
+
+    .horizons-relative-div{
+        width: 1200px;
+    }
+
+    .horizons-contact{
+        width: 1200px;
+    }
+
+    .horizons-button-one{
+        padding: 40px 75px;
+        font-size: 35px;
+    }
+
+    .horizons-button-two{
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 35px;
+    }
+}

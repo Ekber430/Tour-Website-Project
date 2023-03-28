@@ -93,3 +93,29 @@
     transform: scale(0.9, 0.9);
     opacity: 0;
 }
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    .tour-book-title{
+        font-size: 60px;
+    }
+
+    .tour-book-text{
+        font-size: 25px;
+    }
+
+    .book-a-tour-button-background{
+        width: 240px;
+        height: 80px;
+        top: -9px;
+    }
+
+    .book-a-tour-button{
+        font-size: 20px;
+        width: 173px;
+        top: 0;
+    }
+
+    .book-a-tour-button-border{
+        display: none;
+    }
+}

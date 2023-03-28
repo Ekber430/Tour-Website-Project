@@ -166,3 +166,13 @@ ol{
     font-weight: 500;
     margin-left: 100px;
 }
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    .about-main-title{
+        left: 555px;
+    }
+
+    .title-link-div{
+        left: 620px;
+    }
+}

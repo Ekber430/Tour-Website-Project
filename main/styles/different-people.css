@@ -118,3 +118,28 @@
     color: #01b3a7;
 }
 
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+    #different-people{
+        height: 500px;
+    }
+
+    .people-main-flex{
+        flex-wrap: wrap;
+    }
+
+    .user-name{
+        font-size: 28px;
+    }
+
+    .user-rank{
+        font-size: 24px;
+    }
+
+    .people-text-box{
+        height: 235px;
+    }
+
+    .user-phone{
+        font-size: 25px;
+    }
+}

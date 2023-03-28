@@ -243,5 +243,84 @@ footer{
 }
 
 .return-to-top-translate{
-    bottom: 30px;
+    bottom: 30px !important;
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+
+    footer{
+        height: 800px;
+    }
+
+    .information-main-div{
+        height: 600px;
+    }
+
+    .copyright-main-div{
+        height: 200px;
+    }
+
+    .information-title{
+        font-size: 30px;
+    }
+
+    .contact-link{
+        font-size: 23px;
+    }
+
+    .information-divs{
+        width: 400px;
+    }
+
+    .contact-div .fa-solid{
+        font-size: 30px;
+    }
+
+    .contact-address{
+        width: 400px;
+    }
+
+    .news-text{
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .news-date{
+        font-size: 20px;
+    }
+
+    .quick-link-li{
+        font-size: 25px;
+    }
+
+    .quick-link-button{
+        width: 250px;
+        height: 105px;
+    }
+    .quick-link-button-text{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .copyright-text{
+        font-size: 20px;
+    }
+
+    .social-link-icons{
+        font-size: 40px;
+    }
+
+    .policy-link{
+        font-size: 30px;
+    }
+
+    .return-to-top-button{
+        width: 120px;
+        height: 120px;
+        bottom: -120px;
+    }
+
+    .fa-chevron-up{
+        font-size: 30px;
+    }
 }

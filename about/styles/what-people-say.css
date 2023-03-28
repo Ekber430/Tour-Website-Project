@@ -130,3 +130,35 @@
     line-height: 1.71429;
     font-weight: 400;
 }
+
+@media screen and (min-device-width:768px) and (max-device-width:1279px){
+
+    .what-people-say{
+        height: 600px;
+    }
+
+    .main-title{
+        font-size: 60px;
+    }
+
+    .people-text{
+        font-size: 19px;
+    }
+
+    .first-icon{
+        top: 123px;
+        left: 190px;
+    }
+
+    .second-icon{
+        top: 203px;
+    }
+
+    .people-link{
+        font-size: 30px;
+    }
+
+    .people-rank{
+        font-size: 20px;
+    }
+}

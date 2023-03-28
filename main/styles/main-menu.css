@@ -271,6 +271,11 @@ h6{
 }
 
 @media screen and (min-device-width:768px) and (max-device-width:1279px){
+
+    #main-menu{
+        height: 1500px;
+    }
+
     .swiper{
         height: 800px;
     }
@@ -309,5 +314,43 @@ h6{
         width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,34px)) !important;
         height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,34px)) !important;
         margin: var(--swiper-pagination-bullet-vertical-gap,18px) 0 !important;
+    }
+
+    .menu-images-main-div{
+        height: 680px;
+    }
+
+    .other-tours-button{
+        font-size: 40px;
+    }
+
+    .stick-left-side{
+        width: 40px;
+        height: 8px;
+        margin-top: 20px;
+    }
+
+    .stick-right-side{
+        width: 23px;
+        height: 20px;
+        margin-top: 14px;
+    }
+
+    .other-tours-button:hover .stick-left-side{
+        width: 70px;
+    }
+
+    .menu-image-text{
+        font-size: 35px;
+        width: 400px;
+        left: 53px;
+    }
+
+    .mountain-holiday{
+        left: 25px;
+    }
+
+    .beach-holidays{
+        left: 49px;
     }
 }
