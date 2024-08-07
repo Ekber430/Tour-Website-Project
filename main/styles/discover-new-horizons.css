@@ -92,6 +92,7 @@
 .horizons-button-one{
     border: 2px solid #01b3a7;
     position: relative;
+    margin-left: 5px;
     padding: 20px 40px;
     font-weight: 500;
     transition: 0.3s ease-in-out;
